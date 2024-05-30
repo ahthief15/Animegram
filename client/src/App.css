@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+
+
+a{
+  color: rgb(232, 230, 230) !important;
+  font-family: 'Bangers';
+}
+
+
+.brand-logo,h2{
+  font-family: 'Grand Hotel',cursive
+}
+
+.mycard{
+  margin-top: 90px;
+  color: white;
+}
+
+.auth-card {
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 10px auto;
+  background: rgba(181, 179, 181, 0.248); 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  border-radius: 30px; 
+}
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #6a1b9a !important;
+  box-shadow: 0 1px 0 0 #6a1b9a !important;
+  color: white;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item{
+  width: 50%; 
+  height: 240px;
+}
+
+
+.home-card{
+  max-width: 500px;
+  height: max-content;
+  margin: 30px auto;
+  background-color: #0b0a0b;
+
+}
+
+#toast-container{
+  top:80px !important;
+  right: 46% !important;
+  left: auto !important;
+
+}
+
+body {
+  background-image: linear-gradient(to right, #06012a, #300143);
+  color: aliceblue
+}
+
+.glass-effect {
+  background: rgba(181, 179, 181, 0.248);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  border-radius: 30px; 
+}
+
+
+
+
